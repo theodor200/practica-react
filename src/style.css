@@ -10,3 +10,9 @@ html, body{
     font-size: 0.9rem;
     font-style: italic;
 }
+
+.button{
+    padding: 15px;
+    font-size: 1.3rem;
+    margin-bottom: 5rem;
+}

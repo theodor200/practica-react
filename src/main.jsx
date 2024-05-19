@@ -6,7 +6,7 @@ import { MessageApp } from './MessageApp';
 
 ReactDOM.createRoot( document.getElementById('root') ).render(
     <React.StrictMode>
-        <CounterApp value={ 1 } />
+        <CounterApp value={ 100 } />
         <MessageApp 
             titulo="Correo con con mensajes"
             remitente='theodorcardenas@gmail.com'
