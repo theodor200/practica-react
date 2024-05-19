@@ -1,0 +1,12 @@
+html, body{
+    background-color: #21232A;
+    color: white;
+    font-family: Helvetica, Helvetica, sans-serif;
+    font-size: 1.3rem;
+    padding: 70px;
+}
+
+.parrafo{
+    font-size: 0.9rem;
+    font-style: italic;
+}
