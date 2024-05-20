@@ -5,7 +5,8 @@ export const MessageApp = ( { titulo, remitente, mensaje }) => {
         <>
             <h5>Titulo: { titulo }</h5>
             <h5>Remitente: { remitente }</h5>
-            <p class="parrafo">Mensaje: { mensaje }</p>
+            <p className="parrafo">Mensaje: { mensaje }</p>
+            
         </>
     )
 }
@@ -16,8 +17,9 @@ MessageApp.propTypes = {
     mensaje:  PropTypes.string.isRequired,
 }
 
+/*
 MessageApp.defaultProps = {
     titulo: "Titulo por defecto",
     remitente: "Remitente por defecto",
     mensaje: "Mensaje por defecto"
-}
+}*/

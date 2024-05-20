@@ -15,4 +15,9 @@ html, body{
     padding: 15px;
     font-size: 1.3rem;
     margin-bottom: 5rem;
+    margin-right: 10px;
+}
+
+.input{
+    padding: 10px;
 }

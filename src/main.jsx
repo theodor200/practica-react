@@ -4,13 +4,10 @@ import './style.css';
 import { CounterApp } from './CounterApp'
 import { MessageApp } from './MessageApp';
 
+import { Formulario } from './Formulario';
+
 ReactDOM.createRoot( document.getElementById('root') ).render(
     <React.StrictMode>
-        <CounterApp value={ 100 } />
-        <MessageApp 
-            titulo="Correo con con mensajes"
-            remitente='theodorcardenas@gmail.com'
-            mensaje='Este es un correo personalizado'
-        />
+        <CounterApp value={20} />
     </React.StrictMode>
 )
